@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
 
 body {
-  background: white;
   font-family: "poppins", sans-serif;
+  background: #e5e5e5;
+  margin: 0;
 }
 
 .flex-container {
+  display: flex;
+  flex-direction: column;
   background-image: url("./images/header-shapes-mobile.png"), url("./images/header-background-mobile.png");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover 100% 100%;
   padding: 114px 25px 114px 25px;
+  background-color: #fff;
 }
 
 .connect {
@@ -22,11 +27,18 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #fff;
 }
 
 .btn {
   border: none;
   background-color: #fff;
+  padding: 15px 10px 10px 10px;
+}
+
+.navibar {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
