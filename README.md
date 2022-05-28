@@ -1,4 +1,4 @@
-# Mobile-version-skeleton
+## Mobile-version-skeleton
 > This project is about  creating html and styling files in order to built a responsive Mobile version skeleton .
 ## Built With
 - HTML
