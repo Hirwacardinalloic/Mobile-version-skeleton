@@ -1,0 +1,1 @@
+MIT license, A software license tells others what they can and can't do with your source code
