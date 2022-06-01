@@ -4,6 +4,7 @@ body {
   font-family: "poppins", sans-serif;
   background: #e5e5e5;
   margin: 0;
+  height: 100vh;
 }
 
 .flex-container {
@@ -11,16 +12,17 @@ body {
   flex-direction: column;
   background-image: url("./images/header-shapes-mobile.png"), url("./images/header-background-mobile.png");
   background-repeat: no-repeat, no-repeat;
-  background-size: cover 100% 100%;
-  padding: 114px 25px 114px 25px;
+  padding: 80px 25px 114px 25px;
   background-color: #fff;
+  height: 100%;
 }
 
-.connect {
+.connection {
   font-family: "poppins", sans-serif;
   color: #7f8cff;
   font-weight: 400;
   font-size: 15px;
+  margin: 0;
 }
 
 .header {
@@ -28,17 +30,13 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: #fff;
+  width: 100%;
 }
 
-.btn {
+.buto {
   border: none;
   background-color: #fff;
-  padding: 15px 10px 10px 10px;
-}
-
-.navibar {
-  display: flex;
-  justify-content: space-between;
+  padding: 23px 23px 10px 10px;
 }
 
 .logo {
@@ -46,10 +44,10 @@ body {
   color: #6070ff;
   font-weight: bold;
   font-size: large;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 25px;
 }
 
-.text {
+.intro {
   font-family: "poppins", sans-serif;
   color: #172b4d;
   width: 60%;
@@ -57,15 +55,18 @@ body {
   font-size: 18px;
 }
 
-.paragraph {
+.introduction {
   font-family: "poppins", sans-serif;
   color: #344563;
   font-weight: 400;
   font-size: 16px;
   width: 100%;
+  margin-top: 0;
 }
 
-.social {
+.social ul {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
 }
