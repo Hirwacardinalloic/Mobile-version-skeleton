@@ -73,10 +73,8 @@ body {
 }
 
 .scroll {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 30px;
   width: 100%;
   padding: 100px 0;
@@ -84,6 +82,8 @@ body {
 }
 
 .box-contain {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #7a869a;
   width: 90%;
   margin: 0 auto;
@@ -208,6 +208,8 @@ body {
 }
 
 .about-me {
+  display: flex;
+  flex-direction: column;
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
