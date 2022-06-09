@@ -325,7 +325,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./images/contact.png");
+  background-image: url("./images/contact.png"), url("./images/header-shapes-mobile.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: 265px 809px;
@@ -333,13 +333,8 @@ body {
   width: 100%;
   height: 700px;
   margin-top: 50px;
-  border: 1px ;
+  border: 1px;
   border-top-left-radius: 5rem;
-}
-
-.form-sections {
-  list-style: none;
-  row-gap: 8px;
 }
 
 .form-sections {
@@ -348,46 +343,47 @@ body {
   padding-right: 40px;
   width: 327px;
   height: 170px;
+  list-style: none;
+  row-gap: 8px;
 }
 
 .forms li {
   list-style: none;
   margin: 30px;
 }
-  .form p {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #ebebff;
 
-}    
-  .form h1 {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: center;
-    padding-top: 20px;
-  }
-  
+.form p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.form h1 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  padding-top: 20px;
+}
 
 input[type="text"] {
   height: 48px;
   width: 327px;
-  
   border-radius: 8px;
   border: none;
 }
-.textarea{
+
+.textarea {
   height: 170px;
   width: 327px;
   border-radius: 8px;
-
 }
 
 input[type="email"] {
@@ -397,9 +393,8 @@ input[type="email"] {
   border: none;
 }
 
-
 .but {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
