@@ -3,14 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
     <title>mobile version</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-      <a href="#" class="logo"> My Logo </a>
-      <nav>
+      <nav class="header-container">
+        <a href="#" class="logo">My Logo</a>
+        <ul class="header-list">
+          <li class="header-item"><a href="#Portfolio">Portofolio</a></li>
+          <li class="header-item"><a href="#About">About</a></li>
+          <li class="header-item"><a href="#Contact">Contact</a></li>
+        </ul>
         <button type="button" class="buto">
           <img alt="nav" class="menu" src="./images/Union.png" />
         </button>
@@ -51,7 +56,7 @@
     <section class="scroll">
       <div class="box-contain">
         <ul>
-          <li class="ptflio-item">
+          <li class="ptflio-item item1">
             <img
               class="ptflio-image"
               src="./images/Snapshoot-Portfolio.png"
@@ -90,25 +95,34 @@
 
       <div class="box-contain">
         <ul>
-          <li class="ptflio-item">
+          <li class="ptflio-item item2">
             <img
               class="ptflio-image"
-              src="./images/Snapshoot-Portfolio2.png"
-              alt="Portfolio"
+              src="./images/Snapshoot6.png"
+              alt="Portfolio "
             />
+
             <div>
               <section>
                 <div class="lists-container">
-                  <h2>Tonic</h2>
+                  <h2>Facebook 360</h2>
                   <div class="lists">
                     <span class="lists-item obect1">CANOPY</span>
-                    <img src="./images/Counter.png" alt="Dot Counter" />
+                    <img
+                      class="btno"
+                      src="images/Counter.png"
+                      alt="Dot Counter"
+                    />
                     <span class="lists-item">back end Dev</span>
-                    <img src="./images/Counter.png" alt="Dot Counter" />
+                    <img
+                      class="btno"
+                      src="images/Counter.png"
+                      alt="Dot Counter"
+                    />
                     <span class="lists-item">2015</span>
                   </div>
                 </div>
-                <div class="text-holder">
+                <div class="second-text">
                   <p>
                     A daily selection of privately personalized reads; no
                     accounts or sign-ups required.
@@ -130,24 +144,32 @@
 
       <div class="box-contain">
         <ul>
-          <li class="ptflio-item">
+          <li class="ptflio-item item3">
             <img
               class="ptflio-image"
-              src="./images/Snapshoot-Portfolio3.png"
+              src="./images/Snapshoot-Portfolio4.png"
               alt="Portfolio"
             />
             <section>
               <div class="lists-container">
-                <h2>Tonic</h2>
+                <h2>Multi-post Stories</h2>
                 <div class="lists">
                   <span class="lists-item obect1">CANOPY</span>
-                  <img src="./images/Counter.png" alt="Dot Counter" />
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
                   <span class="lists-item">back end Dev</span>
-                  <img src="./images/Counter.png" alt="Dot Counter" />
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
                   <span class="lists-item">2015</span>
                 </div>
               </div>
-              <div class="text-holder">
+              <div class="second-text">
                 <p>
                   A daily selection of privately personalized reads; no accounts
                   or sign-ups required.
@@ -168,24 +190,32 @@
 
       <div class="box-contain">
         <ul>
-          <li class="ptflio-item">
+          <li class="ptflio-item item4">
             <img
               class="ptflio-image"
-              src="./images/Snapshoot-Portfolio4.png"
-              alt="Portfolio"
+              src="images/Snapshoot5.png"
+              alt="Portfolio Portfolio"
             />
             <section>
               <div class="lists-container">
-                <h2>Tonic</h2>
+                <h2>Uber Navigation</h2>
                 <div class="lists">
                   <span class="lists-item obect1">CANOPY</span>
-                  <img src="./images/Counter.png" alt="Dot Counter" />
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
                   <span class="lists-item">back end Dev</span>
-                  <img src="./images/Counter.png" alt="Dot Counter" />
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
                   <span class="lists-item">2015</span>
                 </div>
               </div>
-              <div class="text-holder">
+              <div class="second-text">
                 <p>
                   A daily selection of privately personalized reads; no accounts
                   or sign-ups required.
@@ -299,52 +329,53 @@
         </section>
       </div>
     </section>
-    <section class="form">
-      <form action="https://formspree.io/f/mqknjqvv" method="post">
-        <h1>Contact Me</h1>
-        <p>
-          If you have an application you<br />are interested in developing, a<br />feature
-          that you need built or a<br />project that needs coding. I’d<br />
-          love to help with it
-        </p>
-        <ul class="form-sections">
-          <li>
-            <label for="name"></label>
-            <input
-              type="text"
-              id="name"
-              name="user_name"
-              maxlength="30"
-              placeholder="your name "
-              required
-            />
-          </li>
-          <li>
-            <label for="mail"></label>
-            <input
-              type="email"
-              id="mail"
-              name="user_mail"
-              placeholder="your email "
-              required
-            />
-          </li>
-          <li>
-            <label for="msg"></label>
-            <textarea
-              class="textarea"
-              id="msg"
-              name="user_message"
-              maxlength="500"
-              placeholder="write something here"
-              required
-            ></textarea>
-          </li>
-          <li>
-            <button class="but" type="submit">Get In Touch</button>
-          </li>
-        </ul>
-      </form>
-    </section>
+    <footer>
+      <section id="Contact" class="contacts">
+        <div class="contact-intro">
+          <h1 class="contact-me">Contact me</h1>
+          <p class="paragraph item">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </div>
+        <form
+          class="contact-section"
+          action="https://formspree.io/f/xyyoddrv"
+          method="post"
+        >
+          <input
+            id="name"
+            class="text-holder1"
+            type="text"
+            name="name"
+            maxlength="30"
+            required
+            placeholder="Name"
+          />
+          <input
+            id="email"
+            class="text-holder1"
+            type="email"
+            name="name"
+            required
+            placeholder="Email"
+          />
+          <textarea
+            id="message"
+            class="text-area"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea>
+          <div id="form-button">
+            <button id="clicked-btn" class="butto" type="submit" name="sumit">
+              Get In Touch
+            </button>
+            <p id="form-error"></p>
+          </div>
+        </form>
+      </section>
+    </footer>
   </body>
 </html>
