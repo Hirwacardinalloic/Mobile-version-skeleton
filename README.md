@@ -1,5 +1,5 @@
-## Mobile-version-skeleton
-> This project is about  creating responsive Mobile-Version with html and styling files with CSS .
+## Desktop-version-skeleton
+> This project is about  creating responsive desktop-Version with html and styling files with CSS .
 ## Built With
 - HTML
 - CSS
