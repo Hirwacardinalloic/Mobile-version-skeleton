@@ -4,7 +4,7 @@ body {
   font-family: "poppins", sans-serif;
   background: #e5e5e5;
   margin: 0;
-  height: 100vh;
+  height: 100%;
 }
 
 .flex-container {
