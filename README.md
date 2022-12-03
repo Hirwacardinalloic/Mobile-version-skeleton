@@ -1,5 +1,6 @@
 ## Mobile-version-skeleton
-> This project is about  creating a Mobile version skeleton with HTML and CSS.
+ This project is about  creating a Mobile version skeleton with HTML and CSS.
+
 ## Built With
 - HTML
 - CSS
