@@ -1,9 +1,8 @@
 ## Mobile-version-skeleton
-> This project is about  creating html and styling files in order to built a responsive Mobile version skeleton .
+> This project is about  creating a Mobile version skeleton with HTML and CSS.
 ## Built With
 - HTML
 - CSS
-- Git & Github
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 1. Open Terminal
@@ -13,7 +12,7 @@ To get a local copy up and running follow these simple example steps.
 - IDE to edit and run the code (We use Visual Studio Code).
 - Git to versionning your work.
 ## Usage
-- For anyone who wants to practice html5 or/and css3
+- For anyone who wants to practice html 5 and css3
 - For anyone who wants to create his own portfolio.
 ## Authors
 ## :bust_in_silhouette: **Loic**
